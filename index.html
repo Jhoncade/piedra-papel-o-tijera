@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="main.js"></script>
+    <script src="https://kit.fontawesome.com/549ee1c2cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Piedra Papel Tijera</h1>
+            <div id="resultado">
+            <img src="./inicial.png" alt="puño" id="imagen_maquina">
+                <div class="container_text" id="texto_mensaje">Escoge Una opcion para inciar</div>
+            <img src="./inicial.png" alt="puño" id="imagen_usuario">
+            
+            </div>
+            
+            <div  id="grupo-botones">
+                <button id="papel" type="button" > 
+                    <img src="./papel.png" alt="papel" class="imagen_papel">
+                </button>
+                <button id="tijeras" type="button">
+                    <img src="./tijeras.png" alt="tijeras" class="imagen_tijeras">
+                </button>
+                <button id="piedra" type="button">
+                    <img src="./piedra.png" alt="piedra" class="imagen_piedra">
+                </button>
+        </div>
+        <div class="marcador">
+            <p class="usuario">USUARIO<span id="marcador_usuario">0</span></p>
+            <p class="enpates">EMPATES<span id="empates">0</span></p>
+            <p class="maquinas">MAQUINA<span id="marcador_maquina">0</span></p>
+        </div>
+        <footer>Realizado por Jhon Freddy Cadena Duarte</footer>
+        </div>
+    </main>
+    
+</body>
+</html>

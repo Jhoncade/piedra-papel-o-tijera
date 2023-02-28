@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(255, 251, 251);
+}
+main{
+    background-image: url(./fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px 15px;
+    background-color: rgba(152, 0, 234, 0.26);
+    height: 100%;
+    margin: auto;
+    
+}
+#texto_mensaje{
+    width: 100%;
+}
+#resultado{
+    text-align: center;
+}
+#resultado img{
+    border-radius: 5px;
+    text-align: center;
+    width: 25%;
+}
+h1{
+    font-size: 27px;
+    text-align: center;
+    padding: 25px;
+    color: whitesmoke;
+}
+.container_text{
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#grupo-botones{
+    border-radius: 5px;
+    margin: 2px;
+    display: flex;
+}
+#grupo-botones button img{
+    border: solid 1px black;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+#papel{
+    margin: 5px;
+    width: 34%;
+}
+.imagen_papel{
+    height: 99%;
+}
+#tijeras{
+    width: 34%;
+    margin: 5px;
+}
+.imagen_tijeras{
+    height: 99%;
+}
+#piedra{
+    width: 34%;
+    margin: 5px;
+}
+.marcador{
+    height: 120px;
+    width: 98%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    font-weight: 600;
+}
+p{
+    padding-top: 5px;
+    height: 100%;
+    width: 33%;
+    border: solid 1px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.54);
+
+}
+span{
+    margin-top: 5px;
+    height: 70%;
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.54);
+}
+footer{
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1220px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        color: rgb(255, 251, 251);
+    }
+    main{
+        background-image: url(./fondo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        background-color: rgba(152, 0, 234, 0.26);
+        height: 100%;
+        width: 100%;
+        
+    }
+    h1{
+        font-size: 22px;
+        text-align: center;
+        padding: 15px;
+        color: whitesmoke;
+    }
+    #resultado img{
+        border-radius: 5px;
+        text-align: center;
+        width: 8%;
+    }
+    #grupo-botones{
+        border-radius: 5px;
+        margin: 2px;
+        display: flex;
+        margin: auto;
+        width: 30%;
+        height: 20%;
+    }
+    #grupo-botones button img{
+        border: solid 1px black;
+        margin: auto;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #papel{
+        margin: 5px;
+        width: 34%;
+    }
+    .imagen_papel{
+        height: 99%;
+    }
+    #tijeras{
+        width: 34%;
+        margin: 5px;
+    }
+
+    #piedra{
+        width: 34%;
+
+        margin: 5px;
+    }
+    .marcador{
+        height: 120px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
